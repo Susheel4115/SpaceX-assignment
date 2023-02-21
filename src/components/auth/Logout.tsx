@@ -21,8 +21,6 @@ const Logout = ({ navigateTo = "/login" }: Props) => {
     signOut(auth)
       .then(() => {
         dispatch(clearUser());
-        provider.addScope("https://www.googleapis.com/auth/userinfo.email");
-        provider.addScope("https://www.googleapis.com/auth/userinfo.profile");
         navigate(navigateTo);
         return signOut(auth);
       })
