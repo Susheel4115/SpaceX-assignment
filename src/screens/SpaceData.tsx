@@ -3,7 +3,7 @@ import { fetchData } from "../actions/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import "./Modal.css";
-export default function TestComponent() {
+export default function SpaceData() {
   const dispatch = useDispatch<Dispatch<any>>();
 
   const [launchYear, setLaunchYear] = useState<string>("");

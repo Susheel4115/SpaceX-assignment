@@ -1,8 +1,8 @@
 export const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FirebaseApiKey,
-  authDomain: process.env.REACT_APP_FirebaseAuthDomain,
-  projectId: process.env.REACT_APP_FirebaseProjectId,
-  storageBucket: process.env.REACT_APP_FirebaseStorageBucket,
-  messagingSenderId: process.env.REACT_APP_FirebaseMessagingSenderId,
-  appId: process.env.REACT_APP_FirebaseAppId,
+  apiKey: "AIzaSyAmX_fWvaKIzvWTVX5fPi0DZutilqk5Ves",
+  authDomain: "spacex-starter.firebaseapp.com",
+  projectId: "spacex-starter",
+  storageBucket: "spacex-starter.appspot.com",
+  messagingSenderId: "273623866803",
+  appId: "1:273623866803:web:34670952a6e89e466e7fc6",
 };

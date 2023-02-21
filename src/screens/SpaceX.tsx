@@ -6,7 +6,7 @@ import shuttle from "./assets/shuttle.jpg";
 import homepage from "./assets/homepage.jpg";
 import mini from "./assets/mini.jpg";
 import Logout from "../components/auth/Logout";
-import TestComponent from "./TestComponent";
+import SpaceData from "./SpaceData";
 interface SectionProps {
   id: string;
   title: string;
@@ -92,7 +92,7 @@ const SpaceX = () => {
             <img src={imageUrl} alt={title} className="image" />
           </section>
         ))}
-        <TestComponent />
+        <SpaceData />
       </main>
     </div>
   );
