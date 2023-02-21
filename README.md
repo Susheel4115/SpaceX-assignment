@@ -28,6 +28,11 @@ Open http://localhost:3000 in your browser to view the app.
 # Demo
 A live demo of the project is available at ```temp placeholder```.
 
+# screens
+**Login page**
+![image](https://user-images.githubusercontent.com/74233895/220249387-13653ede-7aab-4143-9893-903aa7689d51.png)
+
+
 # Credits
 This project was created by <b>Susheel Kumar</b> for the assignment purpose. The SpaceX API was used to retrieve data on SpaceX launches.The SpaceX Launches page was used as design inspiration for the project.
  I have research regarding the what template I have to use I was intially confused to go with vite,next cra or plain cra template
