@@ -2,7 +2,7 @@
 This is a React web application that displays data on SpaceX launches retrieved from the SpaceX API. It allows users to filter and sort launches, and view launch details in a modal.
 
 # Technologies Used
-***React: A JavaScript library for building user interfaces.<br/>
+***React: A JavaScript library for building user interfaces.<br/>***
 ***TypeScript: A statically-typed superset of JavaScript.<br/>
 ***Redux: A predictable state container for JavaScript apps.<br/>
 ***Redux Toolkit: An official, opinionated, batteries-included toolset for efficient Redux development.<br/>
