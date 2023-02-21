@@ -32,6 +32,28 @@ A live demo of the project is available at ```temp placeholder```.
 **Login page**
 ![image](https://user-images.githubusercontent.com/74233895/220249387-13653ede-7aab-4143-9893-903aa7689d51.png)
 
+**After Login**
+![image](https://user-images.githubusercontent.com/74233895/220249570-7793dffb-d13d-4a82-8d11-bf434a0befa8.png)
+
+**Dashboard Homepage**
+![image](https://user-images.githubusercontent.com/74233895/220249629-98b0f085-4863-4112-907a-ed3acbf8f2a8.png)
+
+**second Navigation link**
+![image](https://user-images.githubusercontent.com/74233895/220249685-52ea00df-eca8-434d-933a-b1cb80b2cd9a.png)
+
+**Last Navigation link**
+![image](https://user-images.githubusercontent.com/74233895/220249764-ef482ce3-9a84-4cf9-92e6-1593700049b9.png)
+
+**Launch data from Api**
+![image](https://user-images.githubusercontent.com/74233895/220249825-8fe571fe-9808-4c47-a408-9c9f370d9eef.png)
+
+
+
+
+
+
+https://user-images.githubusercontent.com/74233895/220249929-2dd0c003-2960-425f-afac-56e6f62b73cb.mp4
+
 
 # Credits
 This project was created by <b>Susheel Kumar</b> for the assignment purpose. The SpaceX API was used to retrieve data on SpaceX launches.The SpaceX Launches page was used as design inspiration for the project.
