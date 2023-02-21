@@ -5,14 +5,12 @@ import { useNavigate } from "react-router-dom";
 import { auth } from "../../config/firebase";
 import { useDispatch } from "react-redux";
 import { clearUser } from "../../reducers/userReducer";
-import { GoogleAuthProvider } from "firebase/auth";
 interface Props {
   navigateTo?: string;
 }
 
 const Logout = ({ navigateTo = "/login" }: Props) => {
   const [disabled, setDisabled] = useState(false);
-  const provider = new GoogleAuthProvider();
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
