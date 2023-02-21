@@ -6,6 +6,7 @@ interface Props {
   children: React.ReactNode;
 }
 
+//for checking the legit user or not
 const AuthChecker = ({ children }: Props) => {
   const navigate = useNavigate();
 
