@@ -27,7 +27,7 @@ Open http://localhost:3000 in your browser to view the app.
 
 # Demo
 A live demo of the project is available at :
-    https://spacex-assignment.pages.dev/login
+    https://spacex-assignment.pages.dev/
 
 # screens
 **Login page**
