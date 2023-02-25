@@ -20,7 +20,8 @@ const Logout = ({ navigateTo = "/login" }: Props) => {
       .then(() => {
         dispatch(clearUser());
         navigate(navigateTo);
-        return signOut(auth);
+        //not require causing issues
+        // return signOut(auth);
       })
       .catch((error) => {
         console.error(error);
