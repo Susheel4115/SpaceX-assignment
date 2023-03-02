@@ -5,14 +5,12 @@ import { useNavigate } from "react-router-dom";
 import { auth } from "../../config/firebase";
 import { useDispatch } from "react-redux";
 import { clearUser } from "../../reducers/userReducer";
-import { GoogleAuthProvider } from "firebase/auth";
 interface Props {
   navigateTo?: string;
 }
 
 const Logout = ({ navigateTo = "/login" }: Props) => {
   const [disabled, setDisabled] = useState(false);
-  const provider = new GoogleAuthProvider();
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
@@ -21,10 +19,9 @@ const Logout = ({ navigateTo = "/login" }: Props) => {
     signOut(auth)
       .then(() => {
         dispatch(clearUser());
-        provider.addScope("https://www.googleapis.com/auth/userinfo.email");
-        provider.addScope("https://www.googleapis.com/auth/userinfo.profile");
         navigate(navigateTo);
-        return signOut(auth);
+        //not require causing issues
+        // return signOut(auth);
       })
       .catch((error) => {
         console.error(error);

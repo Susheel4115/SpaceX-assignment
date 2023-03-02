@@ -22,7 +22,7 @@ function App() {
           setUser({ displayName: user.displayName, photoURL: user.photoURL })
         );
       } else {
-        console.log("No user detected");
+        console.log("No user detected :(");
       }
       setLoading(false);
     });

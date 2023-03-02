@@ -4,14 +4,12 @@ import { useSearchParams } from "react-router-dom";
 import AuthContainer from "../components/auth/AuthContainer";
 import Center from "../components/utils/Center";
 
-interface Props {}
-
 const tabIdToURL: { [id: number]: string } = {
   0: "login",
   1: "register",
 };
 
-const Login = ({}: Props) => {
+const Login = () => {
   // getting and setting URL params
   const [searchParams, setSearchParams] = useSearchParams();
 
