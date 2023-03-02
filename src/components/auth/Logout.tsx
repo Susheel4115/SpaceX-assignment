@@ -14,9 +14,9 @@ const Logout = ({ navigateTo = "/login" }: Props) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const logout = () => {
+  const logout = async () => {
     setDisabled(true);
-    signOut(auth)
+    await signOut(auth)
       .then(() => {
         dispatch(clearUser());
         navigate(navigateTo);

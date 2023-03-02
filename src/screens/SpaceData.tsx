@@ -69,8 +69,8 @@ export default function SpaceData() {
       <div className="spacedata">
         <ul>
           {data.map((launch: any) => (
-            <div className="inner">
-              <li key={launch.mission_name}>
+            <div className="inner" key={launch.mission_name}>
+              <li>
                 <h2>{launch.mission_name}</h2>
                 <p>{launch.details}</p>
                 <p>Launch date : {launch.launch_date_local}</p>
