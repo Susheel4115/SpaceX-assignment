@@ -29,7 +29,7 @@ const Home = () => {
           </>
         )}
         <Dashboard />
-        <Logout />
+        {/* <Logout /> */}
       </CenterRow>
     </div>
   );
